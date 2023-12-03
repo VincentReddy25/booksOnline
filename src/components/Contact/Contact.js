@@ -10,10 +10,10 @@ export default function Contact () {
                     <p>Vincent Reddy. Thanugundla</p>
                     <p>Full Stack Developer | UI / UX Designer</p>
                     <div className="icons">
-                        <a target="_blank" href="mailto:vincentreddy25@gmail.com"><i className="fa-solid fa-envelope"></i></a>
-                        <a target="_blank" href="https://www.linkedin.com/in/vincentreddy/"><i className="fa-brands fa-linkedin"></i></a>
-                        <a target="_blank" href="https://codepen.io/collection/OLwrbr"><i className="fa-brands fa-codepen"></i></a>
-                        <a target="_blank" href="https://github.com/VincentReddy25"><i className="fa-brands fa-github"></i></a>
+                        <a rel="noreferrer" target="_blank" href="mailto:vincentreddy25@gmail.com"><i className="fa-solid fa-envelope"></i></a>
+                        <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/vincentreddy/"><i className="fa-brands fa-linkedin"></i></a>
+                        <a rel="noreferrer" target="_blank" href="https://codepen.io/collection/OLwrbr"><i className="fa-brands fa-codepen"></i></a>
+                        <a rel="noreferrer" target="_blank" href="https://github.com/VincentReddy25"><i className="fa-brands fa-github"></i></a>
                     </div>
                 </div>
             </section>

@@ -8,7 +8,7 @@ export default function Navbar() {
     return (
         <>
             <div className="navbar">
-                <p>Ebooks</p>
+                <p>ebooks</p>
                 <nav>
                     <label htmlFor="burger"><i className="fa-solid fa-bars"></i></label>
                     <input type="checkbox" name="burger" id="burger" />

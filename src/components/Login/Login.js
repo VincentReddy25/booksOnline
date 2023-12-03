@@ -16,7 +16,7 @@ export default function Login () {
                     <input type="email" name="username" id="username" placeholder="Enter your E-Mail" required /> <br />
                     <input type="password" name="password" id="password" placeholder="Enter your Password" required /> <br />
                     <input type="submit" value="Login" /> <br />
-                    <a href="" className="signup">SignUp</a>
+                    <a href="https://www.google.com" className="signup">SignUp</a>
                 </form>
             </section>
         </>
