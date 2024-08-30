@@ -7,10 +7,9 @@ export default function Footer () {
                 <footer>
                     <nav>
                         <Link to="/Home">Home</Link>
-                        <Link to="/About">About</Link>
                         <Link to="/Contact">Contact</Link>
                         {/* <Link to="/Login">Login</Link> */}
-                        <a rel="noreferrer" target="_blank" href="https://vincentreddy25.github.io/portfolio/">Portfolio</a>
+                        <a rel="noreferrer" target="_blank" href="https://vincentreddy25.github.io/slashmark-portfolio/">Portfolio</a>
                     </nav>
                 </footer>
                 <div className="copyrights">

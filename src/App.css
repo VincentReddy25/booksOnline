@@ -104,9 +104,9 @@ footer, .copyrights{
 /* Home - Hero */
 
 section.hero{
-    height: 90vh;
+    height: 50vh;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     place-items: center;
 }
 
@@ -155,15 +155,23 @@ section.hero{
 }
 
 .book{
-    height: 350px;
+    height: 200px;
     padding: 1.5rem;
     background: var(--secondary-color);
     border-radius: 25px;
     position: relative;
 }
 
+.book:hover {
+    box-shadow: 0 0 20px var(--primary-color);
+    transition: .3s;
+}
+.book_bg:hover {
+    background: white;
+}
 .book_bg{
     background: var(--primary-color);
+    transition: .3s;
 }
 
 .book .book_title{
@@ -182,40 +190,6 @@ section.hero{
     transform: translateX(-50%);
 }
 
-/* About */
-
-
-
-.about header{
-    color: var(--primary-color);
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    padding: 3rem;
-}
-.about .container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    place-items: center;
-    gap: 3rem;
-    padding: 3rem;
-}
-.about_box{
-    background: var(--secondary-color);
-    padding: 2rem;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    font-size: 1.1rem;
-    width: 100%;
-}
-.about_box p span{
-    color: var(--primary-color);
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-.about_box_dull img{
-    width: 100%;
-}
 
 /* Contact */
 
@@ -368,14 +342,6 @@ form a.signup{
     /* Home - Books */
     .books_container header{
         font-size: 3rem;
-    }
-
-
-    /* About */
-    .about .container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        padding: 1rem;
     }
     
     /* Login */
